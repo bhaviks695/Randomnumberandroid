@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+>
+    <TextView
+        android:id="@+id/textrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Click to Generate Random number"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/buttongen"
+        android:background="@color/colorAccent"
+        android:text="Generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="generate"
+        />
+</LinearLayout>
